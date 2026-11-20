@@ -4,55 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moje vizitka</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #202020;
-        /* DOPLŇ ZDE (1): Nastav flexbox tak, aby se karta zarovnala přesně na střed obrazovky */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-      }
-      .card {
-        background: #333333;
-        padding: 30px;
-        /* DOPLŇ ZDE (2): Přidej zaoblení rohů */
-        border-radius: 5px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        max-width: 300px;
-        width: 100%;
-      }
-      h1 {
-        margin-bottom: 5px;
-        color: #fff;
-      }
-      p {
-        color: #b5b4b4;
-        margin-bottom: 20px;
-      }
-      .kontakt {
-        text-decoration: none;
-        background-color: #007bff;
-        color: white;
-        padding: 10px 20px;
-        border-radius: 5px;
-        /* DOPLŇ ZDE (3): Aby tlačítko (odkaz) bralo padding a rozměry, jaký display model musí mít? */
-        display: inline-block;
-      }
-      .kontakt:hover {
-        background-color: #0056b3;
-      }
-    </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
     <div class="card">
-      <h1>Jan Novák</h1>
+      <img src="./assets/img/profile.jpg" alt="Profile Picture" />
+      <h1>Dominik Valenta</h1>
       <p>Webový vývojář</p>
-      <!-- DOPLŇ ZDE (4): Doplň do atributu href správný odkaz pro odeslání e-mailu na jan@example.com -->
-      <a href="mailto:jan@example.com" class="kontakt">Napsat e-mail</a>
+      <a href="mailto:kontakt@dvalenta.eu" class="kontakt">Napsat e-mail</a>
     </div>
   </body>
 </html>
